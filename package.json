@@ -1,0 +1,28 @@
+{
+  "name": "twitter-clone-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanssantos1/twitter-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renanssantos1/twitter-clone/issues"
+  },
+  "homepage": "https://github.com/renanssantos1/twitter-clone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
